@@ -1,13 +1,45 @@
-# Sample Hardhat Project
+# Cloud Drive 3.0
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A Decentralized Cloud Platform with Sharing feature
 
-Try running some of the following tasks:
+# Basic Requirement
+1. Node should be installed in system
+2. Metamask should be installed in browser
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+# Steps
+1. Clone the repository
 ```
+git clone https://github.com/shubhvishwas/Cloud-Drive-3.0.git
+```
+2. install modules for create-react-app
+```
+npm install create-react-app
+```
+3. Create client folder
+```
+npx create-react-app client
+```
+4. Go to the client folder and install axios
+```
+cd client
+npm install axios
+cd ..
+```
+5. Replace the src folder in client with src folder present in the folder
+
+# Steps to start the Project
+
+1. On a new terminal open hardhat. A blockchain will be created with 10 dummy accounts. copy private keys of 2-3 accounts and load them in your metamask
+```
+npx hardhat node
+```
+2. Type the following command on a new terminal
+```
+npx hardhat run --network localhost scripts/deploy.js
+```
+3. Finally type the command;
+```
+cd client
+npm start
+```
+Project will be diplayed on the Local host 3000
