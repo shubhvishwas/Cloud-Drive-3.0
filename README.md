@@ -3,10 +3,10 @@
 A Decentralized Cloud Platform with Sharing feature
 
 # Technology Stack
-1.Solidity (Writing Smart Contracts & Tests)
-2.Javascript (React & Testing)
-3.Hardhat (Development Framework)
-4.React.js (Frontend Framework)
+1. Solidity (Writing Smart Contracts & Tests)
+2. Javascript (React & Testing)
+3. Hardhat (Development Framework)
+4. React.js (Frontend Framework)
 
 
 # Basic Requirement
